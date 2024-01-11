@@ -2344,3 +2344,38 @@ ol {
 	text-align: center;
 	
  }
+
+ /* Aggiungi questo blocco di stile al tuo file CSS */
+
+.contact-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 32px;
+    color: #333;
+}
+
+.contact-info strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Stile per rendere gli indirizzi e-mail e i numeri di telefono cliccabili */
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-container h1{
+	text-align: center;
+}
