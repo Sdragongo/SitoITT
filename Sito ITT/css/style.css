@@ -1806,7 +1806,6 @@ ol {
 	color: #ffffff;
 	display: inline-block;
 	position: absolute;
-	right: 60px;
 	bottom: 12px;
 }
 
@@ -2339,13 +2338,36 @@ ol {
 		padding: 18px 20px 20px;
 	}
 }
- .mission h1, p{
+ .mission h1{
+	margin-left: auto;
+    margin-right: auto;
 	color: white;
 	text-align: center;
-	
+	width: 70%;
  }
 
- /* Aggiungi questo blocco di stile al tuo file CSS */
+ .mission p{
+	margin-left: auto;
+    margin-right: auto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Mulish", sans-serif;
+	font-weight: lighter;
+	width: 50%;
+	line-height: 40px;
+ }
+ 
+ .mission h2{
+	font-size: 80px;
+	margin-left: auto;
+    margin-right: auto;
+	color: rgb(114, 11, 162);
+	text-align: center;
+	width: 70%;
+ }
+
+  /* Aggiungi questo blocco di stile al tuo file CSS */
 
 .contact-info {
     margin-top: 20px;
